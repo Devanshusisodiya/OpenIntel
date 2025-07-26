@@ -26,7 +26,7 @@ A comprehensive Python package for detecting and analyzing technology stacks use
 ## Installation
 
 ```bash
-pip install techstack-detector
+pip install openintel
 ```
 
 ## Quick Start
@@ -35,20 +35,20 @@ pip install techstack-detector
 
 ```bash
 # Analyze a single website
-techstack example.com
+openintel example.com
 
 # Analyze multiple websites from file
-techstack --file urls.txt --format json --output results.json
+openintel --file urls.txt --format json --output results.json
 
 # Analyze with custom timeout
-techstack example.com --timeout 60
+openintel example.com --timeout 60
 ```
 
 ### Python API Usage
 
 ```python
 import asyncio
-from techstack_detector import TechStackDetector, TechStackAnalyzer
+from openintel import TechStackDetector, TechStackAnalyzer
 
 async def main():
     # Basic detection
@@ -159,7 +159,7 @@ async with TechStackDetector() as detector:
 Extend detection capabilities by adding custom technology signatures:
 
 ```python
-from techstack_detector.models import TechSignature, TechCategory
+from openintel.models import TechSignature, TechCategory
 
 custom_sig = TechSignature(
     name="Custom Framework",
