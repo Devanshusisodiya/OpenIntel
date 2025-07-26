@@ -5,9 +5,15 @@ description = "A small Competitive Intelligence Engine for SaaS/Web Apps"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "aiohttp>=3.12.14",
+    "beautifulsoup4>=4.13.4",
     "black>=25.1.0",
+    "dnspython>=2.7.0",
     "isort>=6.0.1",
     "mypy>=1.17.0",
     "playwright>=1.54.0",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.1.0",
     "python-dotenv>=1.1.1",
+    "setuptools>=80.9.0",
 ]
