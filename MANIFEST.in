@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-dev.txt
+recursive-include techstack_detector *.py
+recursive-include tests *.py
