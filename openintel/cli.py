@@ -90,10 +90,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  techstack example.com
-  techstack example.com --format table
-  techstack --file urls.txt --output results.json
-  techstack --analyze results.json
+  openintel example.com
+  openintel example.com --format table
+  openintel --file urls.txt --output results.json
+  openintel --analyze results.json
         """
     )
     

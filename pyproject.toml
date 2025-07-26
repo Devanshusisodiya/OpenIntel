@@ -51,7 +51,7 @@ Repository = "https://github.com/Devanshusisodiya/openintel"
 Issues = "https://github.com/Devanshusisodiya/openintel/issues"
 
 [project.scripts]
-techstack = "openintel.cli:main"
+openintel = "openintel.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["openintel"]
