@@ -5,5 +5,9 @@ description = "A small Competitive Intelligence Engine for SaaS/Web Apps"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "mypy>=1.17.0",
     "playwright>=1.54.0",
+    "python-dotenv>=1.1.1",
 ]
