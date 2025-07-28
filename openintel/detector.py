@@ -2,13 +2,13 @@ import re
 import time
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlparse
 
 import aiohttp
 import dns.resolver
 from bs4 import BeautifulSoup
 
-from openintel.models import DetectedTech, DetectionResult, TechCategory
+from openintel.models import DetectedTech, DetectionResult
 from openintel.signatures import TechSignatures
 
 

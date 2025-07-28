@@ -12,7 +12,7 @@ license = "MIT"
 authors = [
     { name = "Devanshu Singh", email = "devanshukumar45@gmail.com" },
 ]
-keywords = ["web-scraping", "technology-detection", "competitive-intelligence", "mixrank"]
+keywords = ["web-scraping", "technology-detection", "competitive-intelligence"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -106,6 +106,7 @@ exclude_lines = [
 
 [dependency-groups]
 dev = [
+    "isort>=5.13.2",
     "mypy>=1.14.1",
     "pytest>=8.3.5",
     "pytest-asyncio>=0.24.0",

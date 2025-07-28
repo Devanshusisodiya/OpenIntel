@@ -1,7 +1,5 @@
 from datetime import datetime, timedelta
 
-import pytest
-
 from openintel import DetectionResult, TechStackAnalyzer
 from openintel.models import DetectedTech, TechCategory
 

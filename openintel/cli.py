@@ -77,8 +77,8 @@ def analyze_trends(results_file: str) -> None:
         
         # Convert JSON data back to DetectionResult objects
         for item in data:
-            # Simplified conversion - you'd implement full conversion in practice
-            print(f"Trend analysis would process: {item.get('url', 'Unknown')}")
+            ...
+            # TODO: Add full conversion
             
     except Exception as e:
         print(f"Error analyzing trends: {e}")
@@ -154,7 +154,7 @@ Examples:
         parser.print_help()
         sys.exit(1)
     
-    # Run detection
+    # detection
     if len(urls) == 1:
         asyncio.run(detect_single_site(urls[0], args.format))
     else:
